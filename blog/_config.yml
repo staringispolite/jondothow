@@ -1,0 +1,5 @@
+url: http://staringispolite.com/blog
+name: Jonathan Howard
+description: Programmer. Artist. Entrepreneur.
+plugins: [jekyll-redirect-from]
+
