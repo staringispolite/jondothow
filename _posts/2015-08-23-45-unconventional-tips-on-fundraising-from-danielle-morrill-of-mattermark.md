@@ -5,7 +5,7 @@ date: 2015-08-23T15:46:49+00:00
 author: Jonathan Howard
 layout: post
 guid: http://staringispolite.com/blog/?p=567
-permalink: /2015/08/23/45-unconventional-tips-on-fundraising-from-danielle-morrill-of-mattermark/
+permalink: /blog/2015/08/23/45-unconventional-tips-on-fundraising-from-danielle-morrill-of-mattermark/
 excerpt: Danielle unleashed a Category-5 tweetstorm on fundraising today, but twitter isn&#8217;t thread replies well. Compiled this to make the thread easier to follow...
 categories:
   - Uncategorized
