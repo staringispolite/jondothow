@@ -17,7 +17,7 @@ permalink: /ard/
 </header>
 <header class="Basic-header pt5 pb3" id="projects">
   <div class="mauto pl4 pr4 max-width-1024px">
-    <h2 class="m0 fs3 lh-1p125 fw-700">Featured Projects</h2>
+    <h2 class="bbw-1px bbs-solid m0 pb1 mb3 fs3 sm-fs4 md-fs5 lh-1p125 fw-700">Featured Projects</h2>
   </div>
 </header>
 <section class="Simple-cards pt0 pb0">
@@ -68,3 +68,20 @@ permalink: /ard/
     </div>
   </div>
 </section>
+
+<header class="Basic-header pt5 pb3" id="writing">
+  <div class="mauto pl4 pr4 max-width-1024px">
+    <h2 class="bbw-1px bbs-solid m0 pb1 mb3 fs3 sm-fs4 md-fs5 lh-1p125 fw-700">Writing</h2>
+  </div>
+</header>
+<div class="mauto pl4 pr4 max-width-1024px pb5">
+  {% assign posts = site.posts | sort 'created_at' | reverse %}
+  {% for post in posts limit:7 %}
+    <div class="mb2">
+      <a class="mb2 dib fw-700 text-decoration-none pt2 pb2 c-inherit" href="{{ post.url }}">
+        <h2 class="m0 fs3 sm-fs4 md-fs5 lh-1p125 fw-700">{{ post.title }}</h2>
+      </a>
+      <p class="m0 fs1 sm-fs2 md-fs3 fw-200">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+    </div>
+  {% endfor %}
+</div>
