@@ -5,7 +5,8 @@ date: 2015-05-25T20:50:16+00:00
 author: Jonathan Howard
 layout: post
 guid: http://staringispolite.com/blog/?p=559
-permalink: /2015/05/25/typing-instructors-for-coding/
+permalink: /blog/2015/05/25/typing-instructors-for-coding/
+excerpt: My intern host at Google told me once &#8220;whatever tools you use&#8230; master them.&#8221; In that spirit, I went looking for the ideal programming typing instructor. This is subjective, obviously, but...
 categories:
   - Uncategorized
 ---

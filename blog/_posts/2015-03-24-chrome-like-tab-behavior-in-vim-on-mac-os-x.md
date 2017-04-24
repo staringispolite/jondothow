@@ -5,13 +5,13 @@ date: 2015-03-24T15:48:46+00:00
 author: Jonathan Howard
 layout: post
 guid: http://staringispolite.com/blog/?p=551
-permalink: /2015/03/24/chrome-like-tab-behavior-in-vim-on-mac-os-x/
+permalink: /blog/2015/03/24/chrome-like-tab-behavior-in-vim-on-mac-os-x/
 categories:
   - educational
   - programming
   - technology
 ---
-Google Chrome has trained my brain that Ctrl+T, and ⌘+⌥+[arrows] will move me to the next and previous tabs. I wanted vim to work the same way. In .vimrc:
+Google Chrome has trained my brain that Ctrl+T, and ⌘+⌥+[arrows] will move me to the next and previous tabs. Here's how to make vim work the same way. In .vimrc...
 
 <pre style="margin-bottom: 14px;">""""" TAB BEHAVIOR
 " Ctrl+t to open new tab

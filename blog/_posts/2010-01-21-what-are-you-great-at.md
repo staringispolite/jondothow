@@ -5,7 +5,7 @@ date: 2010-01-21T16:56:43+00:00
 author: Jonathan Howard
 layout: post
 guid: http://staringispolite.com/blog/?p=45
-permalink: /2010/01/21/what-are-you-great-at/
+permalink: /blog/2010/01/21/what-are-you-great-at/
 categories:
   - self-improvement
 ---

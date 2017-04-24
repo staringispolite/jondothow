@@ -5,7 +5,7 @@ date: 2014-10-24T13:08:34+00:00
 author: Jonathan Howard
 layout: post
 guid: http://staringispolite.com/blog/?p=507
-permalink: /2014/10/24/juicy-startup/
+permalink: /blog/2014/10/24/juicy-startup/
 categories:
   - Uncategorized
 ---

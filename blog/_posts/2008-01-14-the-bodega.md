@@ -5,7 +5,7 @@ date: 2008-01-14T00:26:29+00:00
 author: Jonathan Howard
 layout: post
 guid: http://staringispolite.com/blog/?p=87
-permalink: /2008/01/14/the-bodega/
+permalink: /blog/2008/01/14/the-bodega/
 categories:
   - unique
 ---

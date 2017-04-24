@@ -5,7 +5,8 @@ date: 2014-05-01T15:56:01+00:00
 author: Jonathan Howard
 layout: post
 guid: http://staringispolite.com/blog/?p=476
-permalink: /2014/05/01/quotable-objectified-the-film/
+permalink: /blog/2014/05/01/quotable-objectified-the-film/
+excerpt: Over the last year, I&#8217;ve collected all my favorite quotes from Objectified the film, in chronological order, including timestamps. I hope this makes it easier to find that elusive quote or moment of insight on the tip of your tongue...
 categories:
   - art
   - educational

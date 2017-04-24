@@ -5,7 +5,7 @@ date: 2012-03-05T01:08:55+00:00
 author: Jonathan Howard
 layout: post
 guid: http://staringispolite.com/blog/?p=108
-permalink: /2012/03/05/500-words-week-1-recap/
+permalink: /blog/2012/03/05/500-words-week-1-recap/
 categories:
   - self-improvement
 ---

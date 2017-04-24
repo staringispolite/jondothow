@@ -5,7 +5,7 @@ date: 2013-09-26T17:16:54+00:00
 author: Jonathan Howard
 layout: post
 guid: http://staringispolite.com/blog/?p=447
-permalink: /2013/09/26/funding-fireside-sammy-shreibati-of-saveup-com/
+permalink: /blog/2013/09/26/funding-fireside-sammy-shreibati-of-saveup-com/
 categories:
   - educational
   - startups

@@ -5,7 +5,7 @@ date: 2012-03-05T14:15:22+00:00
 author: Jonathan Howard
 layout: post
 guid: http://staringispolite.com/blog/?p=132
-permalink: /2012/03/05/healthy-protein-shake-breakfast/
+permalink: /blog/2012/03/05/healthy-protein-shake-breakfast/
 categories:
   - food
   - health

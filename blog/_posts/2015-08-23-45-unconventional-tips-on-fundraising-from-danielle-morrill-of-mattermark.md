@@ -6,10 +6,11 @@ author: Jonathan Howard
 layout: post
 guid: http://staringispolite.com/blog/?p=567
 permalink: /2015/08/23/45-unconventional-tips-on-fundraising-from-danielle-morrill-of-mattermark/
+excerpt: Danielle unleashed a Category-5 tweetstorm on fundraising today, but twitter isn&#8217;t thread replies well. Compiled this to make the thread easier to follow...
 categories:
   - Uncategorized
 ---
-<a href="https://twitter.com/DanielleMorrill" target="_blank">Danielle</a> unleashed a Category-5 tweetstorm on fundraising today, but twitter isn&#8217;t showing parent/child replies right for me, so following the thread got difficult. Made this for my own sanity; publishing here in case it&#8217;s useful for others. Here it is, in order (including some of the asides):
+<a href="https://twitter.com/DanielleMorrill" target="_blank">Danielle</a> unleashed a Category-5 tweetstorm on fundraising today, but twitter isn&#8217;t thread replies well. Compiled this to make the thread easier to follow.
 
 <blockquote class="twitter-tweet" lang="en">
   <p lang="en" dir="ltr">

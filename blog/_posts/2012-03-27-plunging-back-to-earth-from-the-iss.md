@@ -5,7 +5,7 @@ date: 2012-03-27T04:00:06+00:00
 author: Jonathan Howard
 layout: post
 guid: http://staringispolite.com/blog/?p=277
-permalink: /2012/03/27/plunging-back-to-earth-from-the-iss/
+permalink: /blog/2012/03/27/plunging-back-to-earth-from-the-iss/
 categories:
   - Uncategorized
 ---

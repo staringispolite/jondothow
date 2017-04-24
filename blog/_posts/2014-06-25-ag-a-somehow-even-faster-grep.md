@@ -5,7 +5,8 @@ date: 2014-06-25T12:43:53+00:00
 author: Jonathan Howard
 layout: post
 guid: http://staringispolite.com/blog/?p=486
-permalink: /2014/06/25/ag-a-somehow-even-faster-grep/
+permalink: /blog/2014/06/25/ag-a-somehow-even-faster-grep/
+excerpt: AG, aka &#8220;The Silver Searcher&#8221;, somehow embarrasses ack on performance, the same way ack embarrassed grep years ago. It also knows about .gitignore files and can plug in to vim and TextMate just like ack...
 categories:
   - Uncategorized
 ---

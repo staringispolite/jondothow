@@ -5,7 +5,7 @@ date: 2012-03-20T09:43:30+00:00
 author: Jonathan Howard
 layout: post
 guid: http://staringispolite.com/blog/?p=233
-permalink: /2012/03/20/how-it-feels-when-everyone-you-know-gets-laid-off/
+permalink: /blog/2012/03/20/how-it-feels-when-everyone-you-know-gets-laid-off/
 categories:
   - startups
 ---
