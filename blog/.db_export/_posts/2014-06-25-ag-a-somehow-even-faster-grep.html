@@ -1,0 +1,139 @@
+---
+layout: post
+status: publish
+published: true
+title: Ag. A (somehow even) faster grep
+author:
+  display_name: Jonathan Howard
+  login: wpuser
+  email: howard.jonathan@gmail.com
+  url: http://www.staringispolite.com
+author_login: wpuser
+author_email: howard.jonathan@gmail.com
+author_url: http://www.staringispolite.com
+wordpress_id: 486
+wordpress_url: http://staringispolite.com/blog/?p=486
+date: '2014-06-25 12:43:53 -0700'
+date_gmt: '2014-06-25 19:43:53 -0700'
+categories:
+- Uncategorized
+tags: []
+comments: []
+---
+<p>[caption id="" align="aligncenter" width="620" caption="The Silver Surfer (Marvel Comics)"]<img title="The Silver Surfer (creative commons image)" src="http://i.imgur.com/bh8slgi.jpg" alt="The Silver Surfer (creative commons image)" width="620" height="337" />[/caption]</p>
+<p>I still remember when I used <a href="http://beyondgrep.com/" target="_blank">ack</a> for the first time. It was shortly after I moved to SF, and <a href="https://twitter.com/brianrue" target="_blank">Brian Rue</a> swore by it. I was as skeptical before trying it as I was blown away after - usually at least 10x faster than grep, and better at ignoring useless files by default.</p>
+<p><a href="http://mrmrs.cc/" target="_blank">Adam Morse</a> just told me about <a href="https://github.com/ggreer/the_silver_searcher" target="_blank">Ag (aka "The Silver Searcher")</a>, which somehow embarrasses ack on performance, the same way ack embarrassed grep years ago. It also knows about .gitignore files, and can plug in to vim and TextMate just like ack.</p>
+<p>On mac, it's just...</p>
+<p>Install <a href="http://brew.sh/" target="_blank">homebrew</a></p>
+<blockquote>
+<pre><code id="selectable">ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"</code></pre>
+</blockquote>
+<p>&nbsp;</p>
+<p>Install Ag</p>
+<blockquote>
+<pre><code>brew install the_silver_searcher</code></pre>
+</blockquote>
+<p>&nbsp;</p>
+<p>And you're off! (<a href="https://github.com/ggreer/the_silver_searcher" target="_blank">other install methods available</a>). I don't have time for extensive performance tests, but at first glance, <code>ag</code> looks 20 times faster than <code>ack</code>, and 200 times faster than <code>grep</code></p>
+<table dir="ltr" border="1" cellspacing="0" cellpadding="0">
+<colgroup>
+<col width="100" />
+<col width="100" />
+<col width="100" />
+<col width="100" />
+<col width="100" /></colgroup>
+<tbody>
+<tr>
+<td rowspan="1" colspan="2" data-sheets-value="[null,2,&quot;time grep -inrH \&quot;testing\&quot; .&quot;]">time grep -inrH "testing" .</td>
+<td data-sheets-numberformat="[null,4,&quot;\&quot;$\&quot;#,##0.00&quot;]"></td>
+<td rowspan="1" colspan="2" data-sheets-value="[null,2,&quot;time grep -inrH \&quot;emissary\&quot; .&quot;]">time grep -inrH "emissary" .</td>
+</tr>
+<tr>
+<td data-sheets-value="[null,2,&quot;real&quot;]">real</td>
+<td data-sheets-value="[null,2,&quot;0m2.875s&quot;]" data-sheets-numberformat="[null,4,&quot;\&quot;$\&quot;#,##0.00&quot;]">0m2.875s</td>
+<td data-sheets-numberformat="[null,4,&quot;\&quot;$\&quot;#,##0.00&quot;]"></td>
+<td data-sheets-value="[null,2,&quot;real&quot;]">real</td>
+<td data-sheets-value="[null,2,&quot;0m2.922s&quot;]">0m2.922s</td>
+</tr>
+<tr>
+<td data-sheets-value="[null,2,&quot;user&quot;]">user</td>
+<td data-sheets-value="[null,2,&quot;0m2.420s&quot;]">0m2.420s</td>
+<td></td>
+<td data-sheets-value="[null,2,&quot;user&quot;]" data-sheets-numberformat="[null,4,&quot;\&quot;$\&quot;#,##0.00&quot;,1]">user</td>
+<td data-sheets-value="[null,2,&quot;0m2.358s&quot;]">0m2.358s</td>
+</tr>
+<tr>
+<td data-sheets-value="[null,2,&quot;sys&quot;]">sys</td>
+<td data-sheets-value="[null,2,&quot;0m0.170s&quot;]">0m0.170s</td>
+<td></td>
+<td data-sheets-value="[null,2,&quot;sys&quot;]">sys</td>
+<td data-sheets-value="[null,2,&quot;0m0.230s&quot;]">0m0.230s</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="1" colspan="2" data-sheets-value="[null,2,&quot;time ack testing&quot;]">time ack testing</td>
+<td></td>
+<td rowspan="1" colspan="2" data-sheets-value="[null,2,&quot;time ack emissary&quot;]">time ack emissary</td>
+</tr>
+<tr>
+<td data-sheets-value="[null,2,&quot;real&quot;]">real</td>
+<td data-sheets-value="[null,2,&quot;0m0.303s&quot;]">0m0.303s</td>
+<td></td>
+<td data-sheets-value="[null,2,&quot;real&quot;]">real</td>
+<td data-sheets-value="[null,2,&quot;0m0.293s&quot;]">0m0.293s</td>
+</tr>
+<tr>
+<td data-sheets-value="[null,2,&quot;user&quot;]" data-sheets-numberformat="[null,4,&quot;\&quot;$\&quot;#,##0.00&quot;,1]">user</td>
+<td data-sheets-value="[null,2,&quot;0m0.267s&quot;]">0m0.267s</td>
+<td></td>
+<td data-sheets-value="[null,2,&quot;user&quot;]">user</td>
+<td data-sheets-value="[null,2,&quot;0m0.265s&quot;]">0m0.265s</td>
+</tr>
+<tr>
+<td data-sheets-value="[null,2,&quot;sys&quot;]">sys</td>
+<td data-sheets-value="[null,2,&quot;0m0.026s&quot;]">0m0.026s</td>
+<td></td>
+<td data-sheets-value="[null,2,&quot;sys&quot;]">sys</td>
+<td data-sheets-value="[null,2,&quot;0m0.024s&quot;]">0m0.024s</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="1" colspan="2" data-sheets-value="[null,2,&quot;time ag testing&quot;]">time ag testing</td>
+<td></td>
+<td rowspan="1" colspan="2" data-sheets-value="[null,2,&quot;time ag emissary&quot;]">time ag emissary</td>
+</tr>
+<tr>
+<td data-sheets-value="[null,2,&quot;real&quot;]">real</td>
+<td data-sheets-value="[null,2,&quot;0m0.013s&quot;]">0m0.013s</td>
+<td></td>
+<td data-sheets-value="[null,2,&quot;real&quot;]">real</td>
+<td data-sheets-value="[null,2,&quot;0m0.014s&quot;]">0m0.014s</td>
+</tr>
+<tr>
+<td data-sheets-value="[null,2,&quot;user&quot;]" data-sheets-numberformat="[null,4,&quot;\&quot;$\&quot;#,##0.00&quot;,1]">user</td>
+<td data-sheets-value="[null,2,&quot;0m0.007s&quot;]">0m0.007s</td>
+<td></td>
+<td data-sheets-value="[null,2,&quot;user&quot;]">user</td>
+<td data-sheets-value="[null,2,&quot;0m0.008s&quot;]">0m0.008s</td>
+</tr>
+<tr>
+<td data-sheets-value="[null,2,&quot;sys&quot;]">sys</td>
+<td data-sheets-value="[null,2,&quot;0m0.009s&quot;]">0m0.009s</td>
+<td></td>
+<td data-sheets-value="[null,2,&quot;sys&quot;]">sys</td>
+<td data-sheets-value="[null,2,&quot;0m0.009s&quot;]">0m0.009s</td>
+</tr>
+</tbody>
+</table>
