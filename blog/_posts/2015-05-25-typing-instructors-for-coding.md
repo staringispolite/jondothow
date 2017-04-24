@@ -16,8 +16,6 @@ I was half-right. Typing didn&#8217;t keep me from graduating with great grades,
 
 <pre>:10,$s/\.oldClass/.newClass/gc</pre>
 
-&nbsp;
-
 ## Whatever tools you use&#8230; master them.
 
 My intern host at Google told me once _&#8220;whatever tools you use&#8230; master them.&#8221;_ This conversation was about text editors, but the keyboard is an even more basic tool. Long story short, I developed a new-found appreciation for the fundamentals.
@@ -25,8 +23,6 @@ My intern host at Google told me once _&#8220;whatever tools you use&#8230; mas
 So I went looking for the ideal programming typing instructor. This is subjective, obviously, but my ideal would be fun, relaxing, self-paced, _effective at teaching me_, and it would weight symbols like these more heavily:
 
 <pre>&lt; &gt; [ ] { } . ; $ ^ && || # @ = + - " '</pre>
-
-&nbsp;
 
 Here&#8217;s what I came up with, roughly in order of how much I&#8217;ve used them and how much I can vouch for them:<!--more-->
 
@@ -39,8 +35,6 @@ This fits most of the bill. It&#8217;s not self-paced, and it doesn&#8217;t do s
 ## GNU Typist: Console-based typing instructor
 
 <pre>macbook-console&gt; brew install gtypist</pre>
-
-&nbsp;
 
 GTypist works right from the console on any linux system, and has several courses to choose from, all of which feel super logical. I guess you&#8217;d expect all that from the people at GNU! You can choose from a simply QWERTY overview, to detailed courses (symbols!) and even DVORAK and international options.
 
@@ -69,4 +63,3 @@ This is the &#8220;jump into the deep end&#8221; option &#8211; you get thrown i
   * <span style="font-weight: 300;">* Something that could tell me if I&#8217;m using the right fingers, not just hitting the right keys (this would need to account for how </span><a style="font-weight: 300;" href="http://www.onehandkeyboard.org/standard-qwerty-finger-placement/" target="_blank">* the typical typing instruction is broken for the left hand</a><span style="font-weight: 300;">). Not sure this is possible with software alone. Webcam? Special gloves? This one&#8217;s a long-shot.</span>
   * <span style="font-weight: 300;">* &#8220;Quantified self&#8221; for typing. I&#8217;d love to track, over time, how much I&#8217;m fixing my bad habits during the rest of the day, not just while I&#8217;m in a typing instructor. This could be a background task running on my machine that checks for WPM or typos. Ideally it would combine with tracking which fingers I use for which keys.</span>
 
-##
