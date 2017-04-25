@@ -1,0 +1,20 @@
+---
+layout: page
+title: 404 - Nice try!
+subtitle: There ARE easter egg URLs around though...
+author: Jonathan Howard
+permalink: /404.html
+---
+<div class="main max-width-4 mx-auto mt3 center fs3 sm-fs4 md-fs5">
+  <div class="clearfix">
+    <div class="col col-12">
+      In the meantime, have some haikus!
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+  // Track 404 errors with Universal Analytics
+  if($('body').hasClass('error404')) {
+    ga('send', 'event', 'error', '404', 'page: ' + document.location.pathname + document.location.search + ' ref: ' + document.referrer, {'nonInteraction': 1});
+  }
+</script>

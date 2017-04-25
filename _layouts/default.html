@@ -6,6 +6,9 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        {% if page.url == "/404.html" %}
+        <meta http-equiv="refresh" content="3; url=/ku">
+        {% endif %}
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
