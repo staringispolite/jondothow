@@ -1,19 +1,26 @@
+{% assign baseURL = "http://jon.how" %}
+{% assign displayURL = page.permalink %}
+{% capture urlPrefix %}{{ page.permalink | limit: 4 }}{%endcapture %}
+{% if urlPrefix != "http" %}
+  {% assign displayURL = baseURL | append: page.permalink %}
+{% endif %}
+{% assign defaultTitle = "Jonathan Howard. Growth engineer and founder in San Francisco" %}
+{% if page.title == blank or page.title == nil %}
+  {% assign displayTitle = defaultTitle %}
+{% else %}
+  {% assign displayTitle = page.title | append: " | " | append: defaultTitle %} 
+{% endif %}
 <!doctype html>
 <html class="no-js" lang="">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        {% assign defaultTitle = "Jonathan Howard. Growth engineer and founder in San Francisco" %}
-        {% if page.title == blank or page.title == nil %}
-        {% assign displayTitle = defaultTitle %}
-        {% else %}
-        {% assign displayTitle = page.title | append: " | " | append: defaultTitle %} 
-        {% endif %}
         <title>{{ displayTitle }}</title>
         <meta name="description" content="{{ page.description }}">
-        <meta property="og:title" content="{{ displayTitle }}"/>
-        <meta property="og:description" content="{{ page.description }}"/>
-        <meta property="og:image" content="http://jon.how/img/face.svg"/>
+        <meta property="og:url" content="{{ displayURL }}" />
+        <meta property="og:title" content="{{ displayTitle }}" />
+        <meta property="og:description" content="{{ page.description }}" />
+        <meta property="og:image" content="http://jon.how/img/face-line-drawing.jpg" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
         {% if page.url == "/404.html" %}
         <meta http-equiv="refresh" content="3; url=/ku">
