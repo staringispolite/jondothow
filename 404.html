@@ -14,7 +14,5 @@ permalink: /404.html
 </div>
 <script type="text/javascript">
   // Track 404 errors with Universal Analytics
-  if($('body').hasClass('error404')) {
-    ga('send', 'event', 'error', '404', 'page: ' + document.location.pathname + document.location.search + ' ref: ' + document.referrer, {'nonInteraction': 1});
-  }
+  ga('send', 'event', 'error', '404', 'page: ' + document.location.pathname + document.location.search + ' ref: ' + document.referrer, {'nonInteraction': 1});
 </script>
