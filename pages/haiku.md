@@ -4,6 +4,7 @@ title: You found some haikus!
 subtitle: Why not?
 author: Jonathan Howard
 permalink: /ku/
+except: Why not? Here are some haikus for you.
 ---
 <div class="main max-width-4 mx-auto mt3 center fs3 sm-fs4 md-fs5">
   <div class="clearfix">

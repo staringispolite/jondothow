@@ -5,6 +5,7 @@ subtitle: Code like you speak
 date: 2012-03-07T23:10:00+00:00
 author: Jonathan Howard
 permalink: /likepython/
+excerpt: Code like you speak. Like making computers do your bidding? Enjoy Python features like lambdas? Indent-grouping? List comprehensions, but tired of OLD MAN PYTHON telling YOU how to...
 ---
 <div class="clearfix">
   <div class="col md-col-6 sm-col-12 pr4 py2">

@@ -1,9 +1,10 @@
 ---
 layout: page
 title: Photo-real lamborghini illustration
-subtitle: 
+subtitle: A study in lighting and photo-real illustration.
 author: Jonathan Howard
 permalink: /lamborghini/
+ogdescription: A study in lighting and photo-real illustration. These shots show the progress from a traced outline to the final thing.
 ---
 <img src="/img/lamborghini/LamborghiniMurcielagoWIP1.jpg" alt="">
 <img src="/img/lamborghini/LamborghiniMurcielagoWIP2.jpg" alt="">
