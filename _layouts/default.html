@@ -11,7 +11,11 @@
 {% else %}
   {% assign displayTitle = page.title | append: " | " | append: defaultTitle %} 
 {% endif %}
-{% if page.description != blank and page.description != nil %}
+{% if page.ogdescription != blank and page.ogdescription != nil %}
+  {% assign displayDescription = page.ogdescription %}
+{% elsif page.excerpt != blank and page.excerpt != nil %}
+  {% assign displayDescription = page.excerpt | remove: '<p>' | remove: '</p>' %}
+{% elsif page.description != blank and page.description != nil %}
   {% assign displayDescription = page.description %}
 {% endif %}
 <!doctype html>
