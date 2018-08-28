@@ -16,7 +16,7 @@ excerpt: Code like you speak. Like making computers do your bidding? Enjoy Pytho
   <div class="col md-col-6 sm-col-12 py2">
     <pre><h2 class="m0">Download <em>Like, Python</em></h2>(Yep, it's <em>actually</em> real)
 
-<div class="mt1 mb1 fw-400"><a href="https://github.com/staringispolite/likeprogramming/blob/master/likepython/branches/0.1/likepython_0.1.tgz" target="__blank">likepython.tgz</a> | <a href="https://github.com/staringispolite/likeprogramming/blob/master/likepython/branches/0.1/likepython_0.1.zip" target="__blank">likepython.zip</a></div>or clone it from <a class="fw-400" href="http://github.com/staringispolite/likeprogramming" target="__blank">github</a>.</pre>
+<div class="mt1 mb1 fw-400"><a href="https://github.com/staringispolite/likeprogramming/blob/master/likepython/branches/0.1/likepython_0.1.tgz" target="__blank">likepython.tgz</a> | <a href="https://github.com/staringispolite/likeprogramming/blob/master/likepython/branches/0.1/likepython_0.1.zip" target="__blank">likepython.zip</a></div>or clone it from <a class="fw-400" href="https://github.com/staringispolite/likeprogramming" target="__blank">github</a>.</pre>
   </div>  
 </div>
   
