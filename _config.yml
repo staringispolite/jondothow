@@ -2,6 +2,8 @@ url: http://jon.how
 name: Jonathan Howard
 description: Programmer. Artist. Entrepreneur.
 plugins_dir: [jekyll-redirect-from]
+whitelist:
+  - jekyll-redirect-from
 gems:
   - jekyll-redirect-from
 

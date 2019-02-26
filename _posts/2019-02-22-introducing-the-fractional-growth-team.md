@@ -6,6 +6,8 @@ author: Jonathan Howard
 layout: post
 guid: http://staringispolite.com/blog/?p=570
 permalink: /blog/2019/02/22/introducing-the-fractional-growth-team
+redirect_from:
+  - /blog/2019/02/22/introducing-the-part-time-CMO
 ogdescription: Seed and Series A founders say growth is a top priority, but hiring the wrong people is one of the most common and costly mistakes. We see this solved with part-time CFOs, HR, and legal, who avoid the step-function increase in cost, time, and risk of full-time hires. It’s time we bring that concept to marketing, which I’m doing as a Part-Time CMO. Typical engagements...
 categories:
   - Growth
