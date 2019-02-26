@@ -14,9 +14,9 @@
 {% if page.ogdescription != blank and page.ogdescription != nil %}
   {% assign displayDescription = page.ogdescription %}
 {% elsif page.excerpt != blank and page.excerpt != nil %}
-  {% assign displayDescription = page.excerpt | remove: '<p>' | remove: '</p>' %}
+  {% assign displayDescription = page.excerpt | remove: '<p>' | remove: '</p>' | remove: '<a>' | remove: '</a>' %}
 {% elsif page.description != blank and page.description != nil %}
-  {% assign displayDescription = page.description %}
+  {% assign displayDescription = page.description | remove: '<p>' | remove: '</p>' | remove: '<a>' | remove: '</a>'%}
 {% endif %}
 <!doctype html>
 <html class="no-js" lang="">
